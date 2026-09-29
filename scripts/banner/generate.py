@@ -38,48 +38,46 @@ PREFERRED_LOGO_ORDER = ("linux", "kubernetes")
 
 YAML_ROWS = [
     (0, "profile", ""),
-    (1, "subject", "Maria Claudia"),
-    (1, "role", "DevOps Engineer"),
-    (1, "origin", "Rosario, Argentina"),
-    (1, "focus", "CI/CD · Cloud Native · IaC"),
-    (1, "status", "Automatizacion · Escalado · Despliegue"),
-    (1, "toolchain", "Terraform · Helm · GitHub Actions"),
+    (1, "subject", "Diego Matias"),
+    (1, "role", "Software Developer"),
+    (1, "focus", "Java · Spring Boot · Angular · SQL"),
+    (1, "status", "Backend & Cloud · AI-Assisted Dev"),
+    (1, "toolchain", "Docker · Git · AWS · REST APIs"),
     (0, "stack", ""),
-    (1, "cloud", "AWS · Azure"),
-    (1, "containers", "Kubernetes · Docker · Helm"),
-    (1, "iac", "Terraform · Ansible"),
-    (1, "observability", "Prometheus · Datadog · Sentry"),
-    (1, "automation", "Python · Bash · JavaScript"),
+    (1, "cloud", "AWS (ECS, S3, CloudFront)"),
+    (1, "frameworks", "Spring Boot · Angular"),
+    (1, "languages", "Java · TypeScript · JavaScript · SQL"),
+    (1, "databases", "Oracle · PostgreSQL · MySQL · SQL Server"),
+    (1, "ai_tools", "Claude · Antigravity · Codex · MCP"),
     (0, "contact", ""),
-    (1, "linkedin", "/in/mcperezes"),
-    (1, "github", "macu-dev"),
-    (1, "timezone", "UTC-3 · Rosario"),
+    (1, "linkedin", "/in/dmarevalo"),
+    (1, "github", "mmathss"),
 ]
 
 THEMES = {
     "dark": {
-        "bg":      "#0A0F1E",
-        "panel":   "#0D1628",
-        "panel2":  "#101B30",
-        "line":    "#25344C",
-        "muted":   "#8291A8",
-        "text":    "#F0E6F0",
-        "portrait":"#F78CA0",   # city pop pink
-        "chrome":  "#C9B1D9",   # city pop lavender
-        "accent":  "#F78CA0",
-        "shadow":  "#02050B",
+        "bg":      "#0A0F1D",
+        "panel":   "#0F172A",
+        "panel2":  "#131E36",
+        "line":    "#1E293B",
+        "muted":   "#64748B",
+        "text":    "#F8FAFC",
+        "portrait":"#38BDF8",   # Neon Sky/Cyan eléctrico
+        "chrome":  "#818CF8",   # Indigo eléctrico
+        "accent":  "#34D399",   # Emerald neón
+        "shadow":  "#020617",
     },
     "light": {
-        "bg":      "#FDF0F3",
+        "bg":      "#F1F5F9",   # Slate limpio, no rosa
         "panel":   "#FFFFFF",
-        "panel2":  "#FDE8EE",
-        "line":    "#F0C0CE",
-        "muted":   "#9B7B8A",
-        "text":    "#2D1A24",
-        "portrait":"#E05F80",
-        "chrome":  "#7B5EA7",
-        "accent":  "#E05F80",
-        "shadow":  "#D4A0B0",
+        "panel2":  "#E2E8F0",
+        "line":    "#CBD5E1",
+        "muted":   "#475569",
+        "text":    "#0F172A",
+        "portrait":"#0284C7",   # Sapphire blue intenso
+        "chrome":  "#4F46E5",   # Indigo técnico
+        "accent":  "#059669",   # Emerald profundo
+        "shadow":  "#94A3B8",
     },
 }
 
@@ -183,13 +181,18 @@ def floyd_steinberg(gray: np.ndarray) -> np.ndarray:
 def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
     """Return sampled x/y banner coordinates from a 300x340 dither grid."""
     source = Image.open(SOURCE).convert("RGBA")
-    # Tighter head + shoulders crop so face detail fills the VISUAL.MAP frame.
     w, h = source.size
-    crop_w = int(w * 0.60)
-    crop_h = int(crop_w * (340 / 300))
-    left = (w - crop_w) // 2
-    top = int(h * 0.08)
-    crop = source.crop((left, top, left + crop_w, top + crop_h)).resize((300, 340), Image.Resampling.LANCZOS)
+    if (w, h) == (300, 340):
+        crop = source
+    elif abs(w / h - 300 / 340) < 0.05:
+        crop = source.resize((300, 340), Image.Resampling.LANCZOS)
+    else:
+        # Tighter head + shoulders crop so face detail fills the VISUAL.MAP frame.
+        crop_w = int(w * 0.60)
+        crop_h = int(crop_w * (340 / 300))
+        left = (w - crop_w) // 2
+        top = int(h * 0.08)
+        crop = source.crop((left, top, left + crop_w, top + crop_h)).resize((300, 340), Image.Resampling.LANCZOS)
     rgb = crop.convert("RGB")
     alpha = np.asarray(crop.getchannel("A"), dtype=np.float32) / 255.0
 
@@ -338,9 +341,9 @@ def render_svg(
         '<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
         'aria-labelledby="title desc">',
-        "<title id=\"title\">Maria Claudia's live system profile</title>",
+        "<title id=\"title\">Diego Matias's live system profile</title>",
         '<desc id="desc">Animated terminal profile with a dithered portrait and '
-        "DevOps tool silhouettes.</desc>",
+        "software developer tool silhouettes.</desc>",
         "<defs>",
         '<filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">'
         f'<feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="{t["shadow"]}" '
@@ -473,7 +476,7 @@ def render_svg(
             f'stroke="{t["chrome"]}"/>',
             f'<text x="1062" y="111" text-anchor="middle" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-            'font-weight="700">@macu-dev</text>',
+            'font-weight="700">@mmathss</text>',
         ]
     )
 

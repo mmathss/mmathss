@@ -1,48 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" width="960" height="390" role="img" aria-labelledby="title desc">
-  <title id="title">María Claudia — DevOps Engineer</title>
-  <desc id="desc">A city-pop styled terminal profile card with María Claudia's location, mission and technical focus.</desc>
+  <title id="title">Diego Matías — Software Developer</title>
+  <desc id="desc">Terminal profile card with Diego's location, mission and technical focus.</desc>
   <defs>
-    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
-      <stop stop-color="#c7a4f5"/>
-      <stop offset="1" stop-color="#77c8f0"/>
+    <linearGradient id="cyberSky" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="orbGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
     </linearGradient>
     <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="960" height="390" rx="18" fill="#17171c"/>
-  <rect x="9" y="9" width="942" height="372" rx="13" fill="none" stroke="url(#sky)" stroke-width="2"/>
-  <circle cx="35" cy="35" r="5" fill="#f3a0b5"/>
-  <circle cx="54" cy="35" r="5" fill="#f1d09a"/>
-  <circle cx="73" cy="35" r="5" fill="#9de4d1"/>
-  <text x="98" y="41" fill="#8f91a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">macu-dev  ·  profile shell  ·  online</text>
-  <path d="M29 58H931" stroke="#343441"/>
+  <rect width="960" height="390" rx="18" fill="#0a0f1d"/>
+  <rect x="9" y="9" width="942" height="372" rx="13" fill="none" stroke="url(#cyberSky)" stroke-width="2"/>
+  <circle cx="35" cy="35" r="5" fill="#ef4444"/>
+  <circle cx="54" cy="35" r="5" fill="#f59e0b"/>
+  <circle cx="73" cy="35" r="5" fill="#10b981"/>
+  <text x="98" y="41" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">mmathss  ·  cyber shell  ·  online</text>
+  <path d="M29 58H931" stroke="#1e293b"/>
 
-  <rect x="29" y="78" width="594" height="271" rx="9" fill="#1d1d23" stroke="#b99af0" stroke-width="1.5"/>
-  <text x="48" y="111" fill="#76d8d2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">❯ whoami</text>
-  <text x="48" y="143" fill="#b8b9ca" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">maría_claudia</text>
-  <text x="206" y="143" fill="#8f91a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">—</text>
-  <text x="231" y="143" fill="#f3d29b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">DevOps Engineer</text>
+  <rect x="29" y="78" width="594" height="271" rx="9" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="48" y="111" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">❯ whoami</text>
+  <text x="48" y="143" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">diego_matias</text>
+  <text x="180" y="143" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">—</text>
+  <text x="205" y="143" fill="#818cf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">Software Developer / Full Stack</text>
 
-  <path d="M48 166H604" stroke="#343441"/>
-  <text x="48" y="196" fill="#8f91a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">context:</text>
-  <text x="166" y="196" fill="#c7a4f5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Rosario, Argentina  🇦🇷</text>
-  <text x="48" y="225" fill="#8f91a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">mission:</text>
-  <text x="166" y="225" fill="#9de4d1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">crear sistemas confiables y automatizados</text>
+  <path d="M48 166H604" stroke="#1e293b"/>
+  <text x="48" y="196" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">focus:</text>
+  <text x="166" y="196" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Java · Spring Boot · Angular · SQL</text>
+  <text x="48" y="225" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">mission:</text>
+  <text x="166" y="225" fill="#34d399" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">crear soluciones robustas, eficientes y seguras</text>
 
-  <text x="48" y="267" fill="#76d8d2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">❯ ls expertise/</text>
-  <text x="48" y="299" fill="#f3a0b5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">cloud-native/</text>
-  <text x="214" y="299" fill="#b8b9ca" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">AWS · Azure</text>
-  <text x="48" y="326" fill="#f3a0b5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">platform/</text>
-  <text x="214" y="326" fill="#b8b9ca" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">K8s · CI/CD · IaC · Observability</text>
+  <text x="48" y="267" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">❯ ls expertise/</text>
+  <text x="48" y="299" fill="#818cf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">backend-cloud/</text>
+  <text x="214" y="299" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Java · Spring Boot · REST APIs · AWS</text>
+  <text x="48" y="326" fill="#818cf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">frontend-data/</text>
+  <text x="214" y="326" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Angular · TypeScript · Oracle · PostgreSQL</text>
 
-  <rect x="651" y="78" width="280" height="271" rx="9" fill="#1d1d23" stroke="#b99af0" stroke-width="1.5"/>
-  <text x="674" y="111" fill="#f3d29b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">city-pop runtime</text>
-  <circle cx="791" cy="203" r="56" fill="#f3a0b5" opacity=".95"/>
-  <path d="M674 202H908M674 216H908M674 230H908M674 244H908M674 258H908" stroke="#1d1d23" stroke-width="5" opacity=".9"/>
-  <path d="M674 277C711 247 746 303 785 272S861 249 908 281" fill="none" stroke="#76d8d2" stroke-width="3" filter="url(#glow)"/>
-  <path d="M674 294C716 264 746 320 789 289S862 270 908 298" fill="none" stroke="#c7a4f5" stroke-width="2"/>
-  <text x="674" y="326" fill="#8f91a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">status: aprendiendo siempre</text>
+  <rect x="651" y="78" width="280" height="271" rx="9" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="674" y="111" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">system runtime</text>
+  <circle cx="791" cy="203" r="56" fill="url(#orbGrad)" opacity=".90"/>
+  <path d="M674 202H908M674 216H908M674 230H908M674 244H908M674 258H908" stroke="#0f172a" stroke-width="5" opacity=".95"/>
+  <path d="M674 277C711 247 746 303 785 272S861 249 908 281" fill="none" stroke="#38bdf8" stroke-width="3" filter="url(#glow)"/>
+  <path d="M674 294C716 264 746 320 789 289S862 270 908 298" fill="none" stroke="#818cf8" stroke-width="2"/>
+  <text x="674" y="326" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">runtime: active · ai-assisted</text>
 </svg>

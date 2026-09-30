@@ -44,24 +44,26 @@
   <tbody>
     <tr>
       <td width="50%" valign="top"><code>├─ ☁ cloud_infrastructure / backend:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=aws,java,spring" alt="AWS, Java y Spring Boot"><br>
-        <sub><code>AWS · Java · Spring Boot · REST APIs · PL/SQL</code></sub>
+        <img src="https://skillicons.dev/icons?i=aws,java,spring,dotnet,express" alt="AWS, Java, Spring Boot, .NET y Express.js"><br>
+        <sub><code>AWS · Java · Spring Boot · .NET · Express.js · REST APIs · PL/SQL</code></sub>
       </td>
       <td width="50%" valign="top"><code>├─ ▣ databases_messaging:</code><br><br>
-        <img src="assets/icon-oracle.svg" height="48" alt="Oracle">
-        <img src="https://skillicons.dev/icons?i=postgres,mysql" alt="PostgreSQL y MySQL">
-        <img src="assets/icon-sqlserver.svg" height="48" alt="Microsoft SQL Server"><br>
-        <sub><code>Oracle · PostgreSQL · MySQL · Microsoft SQL Server</code></sub>
+        <img src="assets/oracle-svgrepo-com.svg" height="48" alt="Oracle">&nbsp;
+        <img src="assets/microsoft-sql-server-logo-svgrepo-com.svg" height="48" alt="Microsoft SQL Server">&nbsp;
+        <img src="assets/MongoDB.svg" height="48" alt="MongoDB">&nbsp;
+        <img src="assets/SQLite.svg" height="48" alt="SQLite">&nbsp;
+        <img src="https://skillicons.dev/icons?i=postgres,mysql" alt="PostgreSQL y MySQL"><br>
+        <sub><code>Oracle · SQL Server · MongoDB · SQLite · PostgreSQL · MySQL</code></sub>
       </td>
     </tr>
     <tr>
       <td valign="top"><code>├─ ⚙ containers_ci_cd / devops / tools:</code><br><br>
         <img src="https://skillicons.dev/icons?i=docker,git,github,linux" alt="Docker, Git, GitHub y Linux"><br>
-        <sub><code>Docker · Git · GitHub · Linux · AWS (ECS, CloudFront, S3)</code></sub>
+        <sub><code>Docker · Git · GitHub · Linux · CI/CD</code></sub>
       </td>
-      <td valign="top"><code>├─ ◉ monitoring_testing / frameworks:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=angular,react,postman" alt="Angular, React y Postman"><br>
-        <sub><code>Angular · React · QA/Testing · Postman</code></sub>
+      <td valign="top"><code>├─ ◉ frontend_frameworks:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=angular,react,bootstrap" alt="Angular, React y Bootstrap"><br>
+        <sub><code>Angular · React · Bootstrap</code></sub>
       </td>
     </tr>
     <tr>
@@ -69,10 +71,11 @@
         <img src="https://skillicons.dev/icons?i=java,cs,cpp,php,nodejs,ts,js" alt="Java, C#, C++, PHP, Node.js, TypeScript y JavaScript"><br>
         <sub><code>Java · C# · C++ · PHP · Node.js · TypeScript · JavaScript · SQL</code></sub>
       </td>
-      <td valign="top"><code>╰─ ⌁ security_libraries:</code><br><br>
-        <img src="https://cdn.simpleicons.org/jsonwebtokens/000000" height="48" alt="JWT">
-        <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap"><br>
-        <sub><code>OAuth 2.0 · JWT · Spring Security · Bootstrap · REST Architecture</code></sub>
+      <td valign="top"><code>╰─ ⌁ security_testing_libraries:</code><br><br>
+        <img src="https://cdn.simpleicons.org/jsonwebtokens/000000" height="48" alt="JWT">&nbsp;
+        <img src="assets/icon-mockito.png" height="48" alt="Mockito">&nbsp;
+        <img src="https://skillicons.dev/icons?i=postman" alt="Postman"><br>
+        <sub><code>OAuth 2.0 · JWT · Spring Security · Mockito · Postman · REST</code></sub>
       </td>
     </tr>
   </tbody>
@@ -96,13 +99,12 @@
     <tr>
       <td align="left">
         <code>✦ ai_agents_and_assisted_engineering:</code><br><br>
-        <img src="assets/svg-ia/claudecode.svg" height="48" alt="Claude Code">&nbsp;
-        <img src="assets/svg-ia/antigravity.svg" height="48" alt="Google Antigravity">&nbsp;
-        <img src="assets/svg-ia/codex.svg" height="48" alt="OpenAI Codex">&nbsp;
-        <img src="assets/svg-ia/gemini.svg" height="48" alt="Google Gemini">&nbsp;
-        <img src="assets/svg-ia/deepseek.svg" height="48" alt="DeepSeek">&nbsp;
-        <img src="assets/svg-ia/bedrock.svg" height="48" alt="AWS Bedrock">&nbsp;
-        <img src="https://img.shields.io/badge/Agentic_Workflows_%26_MCP-818CF8?style=for-the-badge&logoColor=white" height="48" alt="Agentic Workflows & MCP">
+        <img src="assets/svg-ia/claudecode.svg" height="48" alt="Claude Code">&nbsp;&nbsp;
+        <img src="assets/svg-ia/antigravity.svg" height="48" alt="Google Antigravity">&nbsp;&nbsp;
+        <img src="assets/svg-ia/codex.svg" height="48" alt="OpenAI Codex">&nbsp;&nbsp;
+        <img src="assets/svg-ia/gemini.svg" height="48" alt="Google Gemini">&nbsp;&nbsp;
+        <img src="assets/svg-ia/deepseek.svg" height="48" alt="DeepSeek">&nbsp;&nbsp;
+        <img src="assets/svg-ia/bedrock.svg" height="48" alt="AWS Bedrock">
         <br><br>
         <sub><code>Claude Code · Google Antigravity · OpenAI Codex · Google Gemini · DeepSeek · AWS Bedrock · Protocolo MCP · Automatización Agéntica</code></sub>
       </td>

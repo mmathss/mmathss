@@ -96,16 +96,15 @@
     <tr>
       <td align="left">
         <code>✦ ai_agents_and_assisted_engineering:</code><br><br>
-        <a href="https://claude.ai" target="_blank">
-          <img src="assets/icon-claude.svg" height="48" alt="Claude (Anthropic)">
-        </a>&nbsp;
-        <img src="assets/icon-antigravity.svg" height="48" alt="Google Antigravity">&nbsp;
-        <a href="https://openai.com" target="_blank">
-          <img src="assets/icon-codex.svg" height="48" alt="OpenAI Codex">
-        </a>&nbsp;
+        <img src="assets/svg-ia/claudecode.svg" height="48" alt="Claude Code">&nbsp;
+        <img src="assets/svg-ia/antigravity.svg" height="48" alt="Google Antigravity">&nbsp;
+        <img src="assets/svg-ia/codex.svg" height="48" alt="OpenAI Codex">&nbsp;
+        <img src="assets/svg-ia/gemini.svg" height="48" alt="Google Gemini">&nbsp;
+        <img src="assets/svg-ia/deepseek.svg" height="48" alt="DeepSeek">&nbsp;
+        <img src="assets/svg-ia/bedrock.svg" height="48" alt="AWS Bedrock">&nbsp;
         <img src="https://img.shields.io/badge/Agentic_Workflows_%26_MCP-818CF8?style=for-the-badge&logoColor=white" height="48" alt="Agentic Workflows & MCP">
         <br><br>
-        <sub><code>Desarrollo asistido con Agentes Autónomos (Claude, Google Antigravity, OpenAI Codex) · Protocolo MCP · Prompt Engineering · Workflows de automatización y refactorización</code></sub>
+        <sub><code>Claude Code · Google Antigravity · OpenAI Codex · Google Gemini · DeepSeek · AWS Bedrock · Protocolo MCP · Automatización Agéntica</code></sub>
       </td>
     </tr>
   </tbody>

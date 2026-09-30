@@ -3,27 +3,27 @@
   "axes": [
     {
       "label": "Java",
-      "value": 80
+      "value": 82
+    },
+    {
+      "label": "C# / C++",
+      "value": 70
     },
     {
       "label": "SQL / PL-SQL",
       "value": 82
     },
     {
-      "label": "TypeScript",
+      "label": "Node.js / PHP",
       "value": 72
     },
     {
-      "label": "JavaScript",
-      "value": 75
+      "label": "TypeScript / JS",
+      "value": 76
     },
     {
       "label": "HTML / CSS",
       "value": 75
-    },
-    {
-      "label": "Bash / Linux",
-      "value": 65
     }
   ]
 }

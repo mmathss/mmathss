@@ -48,9 +48,9 @@
         <sub><code>AWS · Java · Spring Boot · REST APIs · PL/SQL</code></sub>
       </td>
       <td width="50%" valign="top"><code>├─ ▣ databases_messaging:</code><br><br>
-        <img src="https://cdn.simpleicons.org/oracle/F80000" height="48" alt="Oracle">
+        <img src="assets/icon-oracle.svg" height="48" alt="Oracle">
         <img src="https://skillicons.dev/icons?i=postgres,mysql" alt="PostgreSQL y MySQL">
-        <img src="https://cdn.simpleicons.org/microsoftsqlserver/CC292B" height="48" alt="Microsoft SQL Server"><br>
+        <img src="assets/icon-sqlserver.svg" height="48" alt="Microsoft SQL Server"><br>
         <sub><code>Oracle · PostgreSQL · MySQL · Microsoft SQL Server</code></sub>
       </td>
     </tr>
@@ -60,15 +60,15 @@
         <sub><code>Docker · Git · GitHub · Linux · AWS (ECS, CloudFront, S3)</code></sub>
       </td>
       <td valign="top"><code>├─ ◉ monitoring_testing / frameworks:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=angular,postman" alt="Angular y Postman">
+        <img src="https://skillicons.dev/icons?i=angular,react,postman" alt="Angular, React y Postman">
         <img src="https://cdn.simpleicons.org/junit5/25A162" height="48" alt="JUnit 5"><br>
-        <sub><code>Angular · JUnit · QA/Testing · Postman</code></sub>
+        <sub><code>Angular · React · JUnit · QA/Testing · Postman</code></sub>
       </td>
     </tr>
     <tr>
-      <td valign="top"><code>├─ ✦ languages_frameworks:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=java,ts,js,html,css" alt="Java, TypeScript, JavaScript, HTML y CSS"><br>
-        <sub><code>Java · TypeScript · JavaScript · SQL · HTML5 · CSS3</code></sub>
+      <td valign="top"><code>├─ ✦ languages_core:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=java,cs,cpp,php,nodejs,ts,js,html,css" alt="Java, C#, C++, PHP, Node.js, TypeScript, JavaScript, HTML y CSS"><br>
+        <sub><code>Java · C# · C++ · PHP · Node.js · TypeScript · JavaScript · SQL · HTML5 · CSS3</code></sub>
       </td>
       <td valign="top"><code>╰─ ⌁ security_libraries:</code><br><br>
         <img src="https://cdn.simpleicons.org/jsonwebtokens/000000" height="48" alt="JWT">

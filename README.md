@@ -60,15 +60,14 @@
         <sub><code>Docker · Git · GitHub · Linux · AWS (ECS, CloudFront, S3)</code></sub>
       </td>
       <td valign="top"><code>├─ ◉ monitoring_testing / frameworks:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=angular,react,postman" alt="Angular, React y Postman">
-        <img src="https://cdn.simpleicons.org/junit5/25A162" height="48" alt="JUnit 5"><br>
-        <sub><code>Angular · React · JUnit · QA/Testing · Postman</code></sub>
+        <img src="https://skillicons.dev/icons?i=angular,react,postman" alt="Angular, React y Postman"><br>
+        <sub><code>Angular · React · QA/Testing · Postman</code></sub>
       </td>
     </tr>
     <tr>
       <td valign="top"><code>├─ ✦ languages_core:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=java,cs,cpp,php,nodejs,ts,js,html,css" alt="Java, C#, C++, PHP, Node.js, TypeScript, JavaScript, HTML y CSS"><br>
-        <sub><code>Java · C# · C++ · PHP · Node.js · TypeScript · JavaScript · SQL · HTML5 · CSS3</code></sub>
+        <img src="https://skillicons.dev/icons?i=java,cs,cpp,php,nodejs,ts,js" alt="Java, C#, C++, PHP, Node.js, TypeScript y JavaScript"><br>
+        <sub><code>Java · C# · C++ · PHP · Node.js · TypeScript · JavaScript · SQL</code></sub>
       </td>
       <td valign="top"><code>╰─ ⌁ security_libraries:</code><br><br>
         <img src="https://cdn.simpleicons.org/jsonwebtokens/000000" height="48" alt="JWT">
@@ -98,17 +97,15 @@
       <td align="left">
         <code>✦ ai_agents_and_assisted_engineering:</code><br><br>
         <a href="https://claude.ai" target="_blank">
-          <img src="https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
-        </a>&nbsp;&nbsp;
-        <a href="#" target="_blank">
-          <img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity">
-        </a>&nbsp;&nbsp;
+          <img src="assets/icon-claude.svg" height="48" alt="Claude (Anthropic)">
+        </a>&nbsp;
+        <img src="assets/icon-antigravity.svg" height="48" alt="Google Antigravity">&nbsp;
         <a href="https://openai.com" target="_blank">
-          <img src="https://img.shields.io/badge/Codex_%2F_OpenAI-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="Codex / OpenAI">
-        </a>&nbsp;&nbsp;
-        <img src="https://img.shields.io/badge/Agentic_Workflows_%26_MCP-818CF8?style=for-the-badge&logoColor=white" alt="Agentic Workflows & MCP">
+          <img src="assets/icon-codex.svg" height="48" alt="OpenAI Codex">
+        </a>&nbsp;
+        <img src="https://img.shields.io/badge/Agentic_Workflows_%26_MCP-818CF8?style=for-the-badge&logoColor=white" height="48" alt="Agentic Workflows & MCP">
         <br><br>
-        <sub><code>Desarrollo asistido con Agentes Autónomos (Claude, Google Antigravity, OpenAI Codex) · Protocolo MCP · Prompt Engineering · Workflows de automatización de código y refactorización</code></sub>
+        <sub><code>Desarrollo asistido con Agentes Autónomos (Claude, Google Antigravity, OpenAI Codex) · Protocolo MCP · Prompt Engineering · Workflows de automatización y refactorización</code></sub>
       </td>
     </tr>
   </tbody>
